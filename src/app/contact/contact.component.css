@@ -1,3 +1,8 @@
 .text-primary {
     color: #41a337 !important;
   }
+  .headline {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  

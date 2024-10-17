@@ -8,12 +8,14 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
+import { NewsroonComponent } from './newsroon/newsroon.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'about', component: AboutComponent },
+  { path: 'newsroom', component: NewsroonComponent },
 ]
 
 @NgModule({
@@ -24,6 +26,7 @@ const routes: Routes = [
     FooterComponent,
     ContactComponent,
     AboutComponent,
+    NewsroonComponent,
   ],
   imports: [
     BrowserModule,
