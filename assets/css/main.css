@@ -1626,7 +1626,7 @@ section,
 }
 
 .services .details {
-  background: color-mix(in srgb, var(--surface-color), transparent 5%);
+  background: #ffffff5e;
   position: absolute;
   left: 20px;
   right: 20px;
@@ -2863,4 +2863,80 @@ section,
 
 .contact-button:hover {
   background-color: #555;
+}
+
+
+
+
+/* About Section */
+.about-us {
+  background: #f9f9f9;
+}
+
+.about-us h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.about-us .lead {
+  font-size: 1.5rem;
+  color: #555;
+}
+
+/* Our Story Section */
+.our-story {
+  background-color: #f1f1f1;
+  padding: 40px 0;
+}
+
+/* Mission and Vision Section */
+.mission-vision {
+  padding: 50px 0;
+}
+
+.mission-vision h4 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Values Section */
+.values {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+}
+
+.values ul {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.values .list-group-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Why Choose Us Section */
+.why-choose-us {
+  padding: 50px 0;
+}
+
+.why-choose-us ul {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.why-choose-us .list-group-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Contact Us Section */
+.contact-us {
+  padding: 40px 0;
+}
+
+.contact-us h3 {
+  font-size: 2rem;
+  font-weight: bold;
 }
