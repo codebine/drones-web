@@ -2940,3 +2940,32 @@ section,
   font-size: 2rem;
   font-weight: bold;
 }
+
+
+/* Set a fixed size for all service images */
+.service-item .img img {
+  width: 100%; /* Adjust to fit container width */
+  height: 310px; /* Fixed height */
+  object-fit: cover; /* Ensures images fill the area without distortion */
+  border-radius: 8px; /* Optional: rounded corners */
+}
+
+
+
+
+.services .card {
+  border: none;
+  transition: transform 0.3s;
+}
+
+.services .card:hover {
+  transform: translateY(-10px);
+}
+
+.cta {
+  background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.cta h2 {
+  font-size: 2.5rem;
+}
