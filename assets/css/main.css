@@ -1624,7 +1624,7 @@ section,
 }
 
 .services .details {
-  background: #ffffff5e;
+  background: #ffffffa3;
   position: absolute;
   left: 20px;
   right: 20px;
@@ -2781,7 +2781,7 @@ section,
 
 /* Background styling for the hero section */
 .hero-section {
-  background: url('../images/gif-1.gif') no-repeat center center/cover;
+  background: url('../images/2603.jpg') no-repeat center center/cover;
   height: 100vh;
   color: white;
   position: relative;
