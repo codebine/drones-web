@@ -9,7 +9,9 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -72,7 +74,6 @@
     <div class="page-title dark-background">
       <div class="container position-relative">
         <h1>Service Details</h1>
-        <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.</p>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
@@ -81,100 +82,231 @@
         </nav>
       </div>
     </div><!-- End Page Title -->
-
-    <!-- Service Details Section -->
-    <section id="service-details" class="service-details section">
-
-      <div class="container">
-
-        <div class="row gy-5">
-
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-
-            <div class="service-box">
-              <h4>Serices List</h4>
-              <div class="services-list">
-                <a href="#" class="active"><i class="bi bi-arrow-right-circle"></i><span>Web Design</span></a>
-                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Web Design</span></a>
-                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Product Management</span></a>
-                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Graphic Design</span></a>
-                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Marketing</span></a>
-              </div>
-            </div><!-- End Services List -->
-
-            <div class="service-box">
-              <h4>Download Catalog</h4>
-              <div class="download-catalog">
-                <a href="#"><i class="bi bi-filetype-pdf"></i><span>Catalog PDF</span></a>
-                <a href="#"><i class="bi bi-file-earmark-word"></i><span>Catalog DOC</span></a>
-              </div>
-            </div><!-- End Services List -->
-
-            <div class="help-box d-flex flex-column justify-content-center align-items-center">
-              <i class="bi bi-headset help-icon"></i>
-              <h4>Have a Question?</h4>
-              <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i> <span>+1 5589 55488 55</span></p>
-              <p class="d-flex align-items-center mt-1 mb-0"><i class="bi bi-envelope me-2"></i> <a href="mailto:contact@example.com">contact@example.com</a></p>
+  </main>
+  <section id="service-details" class="service-details section py-5">
+    <div class="container">
+      <div class="row gy-5">
+        <!-- Sidebar -->
+        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-box">
+            <h4>Services List</h4>
+            <div class="services-list nav flex-column nav-pills" id="v-pills-tab" role="tablist"
+              aria-orientation="vertical">
+              <a class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home"
+                type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                <i class="bi bi-arrow-right-circle"></i><span>Agriculture Drone Services</span>
+              </a>
+              <a class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile"
+                type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                <i class="bi bi-arrow-right-circle"></i><span>Surveying and Mapping Services</span>
+              </a>
+              <a class="nav-link" id="v-pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#v-pills-disabled"
+                type="button" role="tab" aria-controls="v-pills-disabled" aria-selected="false">
+                <i class="bi bi-arrow-right-circle"></i><span>Roads Surveying Services</span>
+              </a>
+              <a class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages"
+                type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                <i class="bi bi-arrow-right-circle"></i><span>Mining Survey Services</span>
+              </a>
             </div>
-
           </div>
 
-          <div class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200">
-            <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
-            <h3>Temporibus et in vero dicta aut eius lidero plastis trand lined voluptas dolorem ut voluptas</h3>
-            <p>
-              Blanditiis voluptate odit ex error ea sed officiis deserunt. Cupiditate non consequatur et doloremque consequuntur. Accusantium labore reprehenderit error temporibus saepe perferendis fuga doloribus vero. Qui omnis quo sit. Dolorem architecto eum et quos deleniti officia qui.
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circle"></i> <span>Aut eum totam accusantium voluptatem.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Assumenda et porro nisi nihil nesciunt voluptatibus.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea</span></li>
-            </ul>
-            <p>
-              Est reprehenderit voluptatem necessitatibus asperiores neque sed ea illo. Deleniti quam sequi optio iste veniam repellat odit. Aut pariatur itaque nesciunt fuga.
-            </p>
-            <p>
-              Sunt rem odit accusantium omnis perspiciatis officia. Laboriosam aut consequuntur recusandae mollitia doloremque est architecto cupiditate ullam. Quia est ut occaecati fuga. Distinctio ex repellendus eveniet velit sint quia sapiente cumque. Et ipsa perferendis ut nihil. Laboriosam vel voluptates tenetur nostrum. Eaque iusto cupiditate et totam et quia dolorum in. Sunt molestiae ipsum at consequatur vero. Architecto ut pariatur autem ad non cumque nesciunt qui maxime. Sunt eum quia impedit dolore alias explicabo ea.
-            </p>
+          <div class="service-box mt-4">
+            <h4>Download Catalog</h4>
+            <div class="download-catalog">
+              <a href="#"><i class="bi bi-filetype-pdf"></i> Catalog PDF</a>
+              <a href="#"><i class="bi bi-file-earmark-word"></i> Catalog DOC</a>
+            </div>
           </div>
-
         </div>
 
-      </div>
+        <!-- Content -->
+        <div class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200">
+          <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+              <header class="bg-success text-white text-center py-4">
+                <h1>Agriculture Drone Services</h1>
+                <p>Innovative Technology for Modern Farming</p>
+              </header>
 
-    </section><!-- /Service Details Section -->
-    <div class="contact-container d-flex flex-column align-items-center justify-content-center vh-100">
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
+              <section class="container my-5">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h2 class="text-success">About Our Services</h2>
+                    <p>
+                      Our agriculture drone services provide a cutting-edge solution to enhance crop yield, reduce labor
+                      costs,
+                      and ensure precise spraying of pesticides, fertilizers, and nutrients. With advanced technology,
+                      our drones
+                      offer real-time field monitoring and effective application.
+                    </p>
+                    <ul>
+                      <li>Precision spraying on paddy and other crops</li>
+                      <li>Real-time aerial imaging for crop health analysis</li>
+                      <li>Automated mapping and GPS-enabled navigation</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6">
+                    <img src="./assets/images/img-1.jpg" alt="Drone Spraying on Paddy Fields"
+                      class="img-fluid rounded shadow">
+                  </div>
+                </div>
+              </section>
+
+              <section class="bg-light py-5">
+                <div class="container text-center">
+                  <h2 class="text-success">Drone Spraying in Action</h2>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id"
+                      title="Drone Spraying in Action" frameborder="0" allow="autoplay; encrypted-media"
+                      allowfullscreen></iframe>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+              <header class="bg-primary text-white text-center py-4">
+                <h1>Surveying and Mapping Services</h1>
+                <p>Accurate and Efficient Aerial Survey Solutions</p>
+              </header>
+
+              <section class="container my-5">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h2 class="text-primary">About Our Services</h2>
+                    <p>
+                      Our surveying and mapping services leverage drone technology to provide high-resolution aerial
+                      images
+                      and detailed maps for construction, agriculture, urban planning, and more. We ensure precise data
+                      collection
+                      with state-of-the-art sensors and GPS.
+                    </p>
+                    <ul>
+                      <li>Topographical surveys for land and construction projects</li>
+                      <li>High-resolution 3D mapping for precise measurements</li>
+                      <li>Real-time geospatial data analysis</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6">
+                    <img src="./assets/images/gif-2.gif" alt="Drone Surveying and Mapping"
+                      class="img-fluid rounded shadow">
+                  </div>
+                </div>
+              </section>
+
+              <section class="bg-light py-5">
+                <div class="container text-center">
+                  <h2 class="text-primary">Drone Surveying in Action</h2>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id"
+                      title="Drone Surveying in Action" frameborder="0" allow="autoplay; encrypted-media"
+                      allowfullscreen></iframe>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-disabled-tab">
+              <header class="bg-warning text-white text-center py-4">
+                <h1>Roads Surveying Services</h1>
+                <p>Precise and Reliable Surveying for Road Construction Projects</p>
+              </header>
+
+              <section class="container my-5">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h2 class="text-warning">About Our Services</h2>
+                    <p>
+                      Our roads surveying services provide accurate and comprehensive data for the planning, design, and
+                      construction
+                      of roads and highways. We utilize cutting-edge drone technology and advanced surveying equipment
+                      to ensure
+                      precise measurements, terrain analysis, and project management support.
+                    </p>
+                    <ul>
+                      <li>Detailed terrain mapping for road alignment and design</li>
+                      <li>Topographic surveys for accurate elevation data</li>
+                      <li>Geospatial data collection and analysis for construction management</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6">
+                    <img src="./assets/images/img-4.jpg" alt="Drone Surveying for Roads"
+                      class="img-fluid rounded shadow">
+                  </div>
+                </div>
+              </section>
+
+              <section class="bg-light py-5">
+                <div class="container text-center">
+                  <h2 class="text-warning">Drone Surveying for Roads in Action</h2>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id"
+                      title="Drone Surveying for Roads in Action" frameborder="0" allow="autoplay; encrypted-media"
+                      allowfullscreen></iframe>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+              <header class="bg-danger text-white text-center py-4">
+                <h1>Mining Survey Services</h1>
+                <p>Accurate and Efficient Surveying for Mining Operations</p>
+              </header>
+
+              <section class="container my-5">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h2 class="text-danger">About Our Services</h2>
+                    <p>
+                      Our mining survey services utilize advanced drone technology and GPS to provide precise aerial
+                      surveying
+                      for mining sites. We offer solutions for volumetric measurements, mapping, and monitoring mining
+                      operations
+                      to ensure accurate data collection and optimized planning.
+                    </p>
+                    <ul>
+                      <li>Volumetric surveys for stockpile and excavation measurements</li>
+                      <li>3D modeling and mapping of mining sites</li>
+                      <li>Real-time monitoring of mining activities for progress tracking</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6">
+                    <img src="./assets/images/img-5.jpeg" alt="Drone Mining Surveying" class="img-fluid rounded shadow">
+                  </div>
+                </div>
+              </section>
+
+              <section class="bg-light py-5">
+                <div class="container text-center">
+                  <h2 class="text-danger">Drone Surveying for Mining in Action</h2>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id"
+                      title="Drone Surveying for Mining in Action" frameborder="0" allow="autoplay; encrypted-media"
+                      allowfullscreen></iframe>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
       </div>
-      <p class="contact-description text-center">
-        If you wish to purchase products  please leave your contact information below. 
-        We will be in contact with you shortly.
-      </p>
-      <button class="btn contact-button" href="contact.html">Contact Us</button>
     </div>
+  </section>
 
-  </main>
+  <!-- Call to Action  -->
+  <div class="contact-container d-flex flex-column align-items-center justify-content-center bg-light my-5">
+    <div class="container section-title mt-4" data-aos="fade-up">
+      <h2>Contact</h2>
+    </div>
+    <h2 class="fs-5 mb-3 text-uppercase">Get Started with Krishi Nethra Innovation</h2>
+    <p class="contact-description text-center">
+      Ready to revolutionize your agricultural operations with drone technology? Contact us today to learn more about
+      our services and how we can help you achieve your goals.
+    </p>
+    <button class="btn contact-button mb-5" href="contact.html">Contact Us</button>
+  </div>
+  <!-- Call to Action  -->
 
   <footer id="footer" class="footer dark-background">
-
-    <div class="footer-newsletter">
-      <div class="container">
-        <div class="row justify-content-center text-center">
-          <div class="col-lg-6">
-            <h4>Join Our Newsletter</h4>
-            <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
-            <form action="forms/newsletter.php" method="post" class="php-email-form">
-              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your subscription request has been sent. Thank you!</div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
@@ -223,14 +355,16 @@
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename"> Krishi Nethra</strong> <span>All Rights Reserved</span></p>
-    
+      <p>© <span>Copyright</span> <strong class="px-1 sitename"> Krishi Nethra</strong> <span>All Rights Reserved</span>
+      </p>
+
     </div>
 
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
