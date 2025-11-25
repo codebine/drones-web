@@ -164,16 +164,16 @@ h6 {
 }
 
 .header .logo {
-  /* background: var(--accent-color); */
+  background: none !important;
   position: absolute;
   inset: 0 auto 0 0;
   padding: 0 20px;
 }
 
 .header .logo img {
-      max-height: 240px;
-    margin-right: 3px;
-    margin-top: 16px;
+      max-height: 240px !important;
+    margin-right: 3px !important;
+    margin-top: 16px !important;
 }
 
 .header .logo h1 {
